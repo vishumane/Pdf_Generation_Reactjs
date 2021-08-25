@@ -6,7 +6,7 @@ import PDF from'./PDF';
      const [content,setContent]=useState('');
      const [body,setBody]=useState('');
      const[date,setDate]=useState([]);
-     const [postpublish,setPostpublish]=useState(false);
+     const [datapublish,setDatapublish]=useState(false);
 
 
    const  submitData = (e) => {
@@ -14,14 +14,14 @@ import PDF from'./PDF';
             alert('All fields are required!');
             e.preventDefault();
         }else{
-            setPostpublish(true);
+            setDatapublish(true);
 
         }
     }
 
     return (
         <>
-                {  !postpublish ? 
+                {  !datapublish ? 
                     (<div className="container">
                         <div className="jumbotron mt-3">
                             <div className="row">
