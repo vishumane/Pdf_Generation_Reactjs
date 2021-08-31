@@ -29,7 +29,7 @@ import PDF from'./PDF';
                                     <div className="well well-sm">
                                         <form className="form-horizontal" method="post">
                                             <fieldset>
-                                                <legend className="text-center header">**save you data as pdf**</legend>
+                                                <legend className="text-center header">**Save your data as pdf**</legend>
                                                 <div className="form-group">
                                                     <span className="col-md-1 col-md-offset-2 text-center"><i className="fa fa-user bigicon"></i></span>
                                                     <input onChange={(e)=>setTitle(e.target.value)} name="title" type="text" placeholder=" Title" className="form-control" />
